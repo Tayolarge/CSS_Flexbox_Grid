@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+main {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 15px;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    height: 60vh;
+    padding: 2em 3em;
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    height: 60vh;
+    padding: 2em 3em;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    height: 60vh;
+    padding: 2em 3em;
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    padding-top: 1em;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 1em;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.button1{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    color: hsl(31, 77%, 52%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 75%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 2em;
+    transition-duration: 0.4s;
+}
+.button2{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    color: hsl(184, 100%, 22%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 75%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 2em;
+    transition-duration: 0.4s;
+}
+.button3{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    color: hsl(179, 100%, 13%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 75%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 2em;
+    transition-duration: 0.4s;
+}
+.button1:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+.button2:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+.button3:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
